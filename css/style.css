@@ -46,6 +46,12 @@ nav {
     border-bottom: 1px solid var(--border);
 }
 
+a:has(> .nav-logo) {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .nav-logo {
     font-family: 'Fraunces', serif;
     font-size: 1.4rem;
